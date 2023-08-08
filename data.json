@@ -1,0 +1,13 @@
+[
+    {"id": 0, "nombre": "Arroz", "precio": 75, "cantidad": 1},
+    {"id": 1, "nombre": "Carne", "precio": 150, "cantidad": 1},
+    {"id": 2, "nombre": "Fideos", "precio": 80, "cantidad": 1}, 
+    {"id": 3, "nombre": "Pollo", "precio": 120, "cantidad": 1},
+    {"id": 4, "nombre": "Pescado", "precio": 135, "cantidad": 1},
+    {"id": 5, "nombre": "Medialunas", "precio": 25, "cantidad": 1},
+    {"id": 6, "nombre": "Churros", "precio": 15, "cantidad": 1},
+    {"id": 7, "nombre": "Lentejas", "precio": 50, "cantidad": 1},
+    {"id": 8, "nombre": "Polenta", "precio": 65, "cantidad": 1},
+    {"id": 9, "nombre": "Huevos", "precio": 10, "cantidad": 1},
+    {"id": 10, "nombre": "Leche", "precio": 15, "cantidad": 1}
+]
