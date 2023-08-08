@@ -1,5 +1,4 @@
-
-const num = Math.random()
+//Defino Variables para su posterior uso
 let botonProductos = document.getElementById('btn1')
 let body = document.querySelector("body")
 body.style.backgroundColor = "#fdf5e6"
