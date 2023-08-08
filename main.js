@@ -75,16 +75,17 @@ let productos = []
                 text: `se agrego el producto ${productoElegido.nombre} al carrito` ,
                 icon: 'success',
             })
-        carrito.push(productoElegido)}
+        carrito.push(productoElegido)
+            }
         localStorage.setItem('carrito', JSON.stringify(carrito))
+        total += productoElegido.precio
+            totalCompra.innerHTML = `$${total}`
         mostrarCarrito.innerHTML =`
         Los productos agregados al carrito son: ${"\n" + carrito.map((producto) => producto.nombre + ": precio: $" + producto.precio + ", x" + producto.cantidad + " Unidad/es ||")}
         `;
-        carrito.forEach(productoElegido => {
-            total += productoElegido.precio
-        })
-        totalCompra.innerHTML = `$${total}`
-    }}  
+        
+    }
+}  
 
 //Boton para limpiar carrito
     let btnLimpiarCarrito = document.createElement('button')
